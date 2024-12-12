@@ -1,0 +1,12 @@
+The solution is simple: add spaces around the operators in the `calc()` function.  For example, instead of:
+
+```css
+width:calc(100%-10px);
+```
+
+Use:
+
+```css
+width:calc(100% - 10px);
+```
+This ensures that the calculation is performed correctly.
